@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    background: #eee;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 20px auto;
+    background: pink;
+    padding: 20px;
+}
+
+/* Header & Footer */
+.header, .footer{
+    background: #7fb3a7;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 28px;
+}
+
+/* Main Section */
+.main{
+    display: flex;      
+    gap: 20px;
+    margin: 20px 0;
+}
+
+/* Aside */
+.aside{
+    flex: 1;
+    background: #4fa3a3;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+}
+
+/* Article */
+.article{
+    flex: 2;
+    background: #f26d6d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Images inside Article */
+.images{
+    display: flex;      
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.img-box{
+    flex: 1;
+    background: #ccc;
+    padding: 40px 0;
+    color: white;
+}
+
